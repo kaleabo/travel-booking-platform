@@ -1,7 +1,18 @@
-import React from "react";
+import HeroSection from "../components/HeroSection";
+import ImageHeader from "../components/ImageHeader";
 
-const Home = () => {
-  return <div>Home</div>;
+const Home: React.FC = () => {
+  return (
+    <div>
+      <div className="bg-black">
+        {/* Hero Section */}
+        <HeroSection />
+        {/* Header Image */}
+        <ImageHeader />
+      </div>
+
+    </div>
+  );
 };
 
 export default Home;
