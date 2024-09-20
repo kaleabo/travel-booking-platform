@@ -4,7 +4,7 @@
 
 This project is a **responsive React.js web application** that mimics the functionality and design of a travel booking platform. The application is developed to replicate the key sections of the provided Figma design while focusing on accessibility, responsiveness, and state management.
 
-[Live Demo](https://travel-ease.vercel.app)
+[Live Demo](https://ease-travel.vercel.app)
 
 ## Features
 
