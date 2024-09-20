@@ -2,6 +2,7 @@ import HeroSection from "../components/HeroSection";
 import ImageHeader from "../components/ImageHeader";
 import FeaturesSection from "../components/FeaturesSection";
 import EverythingYouNeedSection from "../components/EverythingYouNeedSection";
+import PlatformSection from "../components/PlatformSection";
 
 const Home: React.FC = () => {
   return (
@@ -18,6 +19,9 @@ const Home: React.FC = () => {
 
       {/* Everything You Need Section */}
       <EverythingYouNeedSection />
+
+      {/* Platform Section */}
+      <PlatformSection />
     </div>
   );
 };
