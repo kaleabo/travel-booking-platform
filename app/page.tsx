@@ -1,5 +1,6 @@
 import HeroSection from "../components/HeroSection";
 import ImageHeader from "../components/ImageHeader";
+import FeaturesSection from "../components/FeaturesSection";
 
 const Home: React.FC = () => {
   return (
@@ -11,6 +12,8 @@ const Home: React.FC = () => {
         <ImageHeader />
       </div>
 
+      {/* Features Section */}
+      <FeaturesSection />
     </div>
   );
 };
