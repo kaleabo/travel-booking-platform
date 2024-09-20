@@ -3,6 +3,7 @@ import ImageHeader from "../components/ImageHeader";
 import FeaturesSection from "../components/FeaturesSection";
 import EverythingYouNeedSection from "../components/EverythingYouNeedSection";
 import PlatformSection from "../components/PlatformSection";
+import Footer from "../components/Footer";
 
 const Home: React.FC = () => {
   return (
@@ -22,6 +23,9 @@ const Home: React.FC = () => {
 
       {/* Platform Section */}
       <PlatformSection />
+
+      {/* Footer */}
+      <Footer />
     </div>
   );
 };
